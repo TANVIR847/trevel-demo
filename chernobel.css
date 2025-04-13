@@ -1,0 +1,415 @@
+@import url(https://fonts.cdnfonts.com/css/kiona-2);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background: #0e1922;
+  width: 100%;
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Kiona', sans-serif;
+    color: #d5e8f0;
+}
+
+
+.navbar{
+    width: 1500px;
+    height: 50px;
+    margin: auto;
+}
+
+.icon img{
+    width: 100px;
+    margin-top: 2rem;
+    margin-left: -7rem;
+    position: absolute;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+li{
+    margin-top: 3.2rem;
+    margin-left: 22rem;
+    font-size: 18px;
+}
+
+li a {
+    text-decoration: none;
+    color: #d5e8f0;
+    transition: all 0.5s ease 0s;
+}
+
+li a:hover{
+    font-size: 21px;
+    color: #9ce1ff9a;
+    transform: scale(1.0060);
+}
+
+.container-main{
+    width: 1700px;
+    height: 100vh;
+    margin-left: 6.5rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    align-self: flex-start;
+    width: 95vh;
+    height: 45vh;
+    position: absolute;
+    margin-left: -50rem;
+}
+
+.card{
+    width: 90vh;
+    height: 30vh;
+    background: linear-gradient(#1d2a32, #0a161e);
+    border-radius: 0 0 15px 0;
+    transition: 0.5s ease 0s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-item{
+    padding: 20px;
+}
+
+.card-item h1{
+    font-size: 60px;
+}
+
+
+
+.container2{
+    align-self: flex-start;
+    width: 87vh;
+    height: 34vh;
+    position: absolute;
+    margin-left: 55rem;
+}
+
+.card2{
+   background: #293237;
+   height: 32vh;
+   border-radius: 0 0 0 15px;
+   transition: 0.5s ease 0s;
+}
+
+.card2:hover{
+    opacity: 90%;
+    transform: scale(1.04);
+}
+
+.card-item2 img{
+    width: 550px;
+    margin-left: 8rem;
+    margin-top: -4rem;
+}
+
+
+.container3{
+    align-self: flex-start;
+    width: 60vh;
+    height: 41vh;
+    position: absolute;
+    margin-left: -70.8rem;
+    margin-top: 18.5rem;
+}
+
+.card3{
+    width: 68vh;
+    height: 39vh;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    transition: 0.5s ease 0s;
+    background: #635867;
+}
+
+
+.card3:hover{
+    opacity: 80%;
+    transform: scale(1.03);
+}
+
+.card-item3 img{
+    width: 25vh;
+    height: 30vh;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+.container4{
+    align-self: flex-start;
+    width: 68vh;
+    height: 35vh;
+    position: absolute;
+    margin-left: 65.8rem;
+    margin-top: 19.7rem;
+}
+
+.card-item4 img{
+    width: 68vh;
+    height: 37vh;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+    transition: 0.5s ease 0s;
+}
+
+
+.card-item4 img:hover{
+    opacity: 70%;
+    transform: scale(1.02);
+}
+
+
+.container5{
+    align-self: flex-end;
+    width: 40vh;
+    height: 28vh;
+    position: absolute;
+    margin-left: 82.5rem;
+    margin-top: 20rem;
+    border-radius: 15px 0 0 0;
+}
+
+.card-item5 img{
+    width: 40vh;
+    height: 28vh;
+    border-radius: 15px 0 0 0;
+    transition: 0.5s ease 0s;
+}
+
+.card-item5 img:hover{
+    opacity: 50%;
+    transform: scale(1.06);
+}
+
+.container6{
+    align-self: flex-end;
+    width: 40vh;
+    height: 28vh;
+    position: absolute;
+    margin-left: -82.5rem;
+    margin-top: 20rem;
+}
+
+.card6{
+    background: #18693a;
+    height: 28vh;
+    border-radius: 0 15px 0 0;
+    transition: 0.5s ease 0s;
+}
+
+.card6:hover{
+    opacity: 90%;
+    transform: scale(1.06);
+}
+
+.card6 img{
+    width: 350px;
+}
+
+
+.container7{
+    align-self: flex-end;
+    width: 94vh;
+    height: 28vh;
+    position: absolute;
+    margin-left: -0.1rem;
+    margin-top: 20rem;
+}
+
+.card7{
+    display: flex;
+    transition: 0.5s ease 0s;
+}
+
+
+.card7:hover{
+    opacity: 80%;
+    transform: scale(1.04);
+}
+
+.card-item7 img{
+    width: 94vh;
+    height: 28vh;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+
+button{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    border-radius: 0 15px 0 15px;
+    border-style: none;
+    margin-top: 10rem;
+    margin-left: 20rem;
+    font-size: 15px;
+    color: #298bcd;
+    transition: 0.5s;
+}
+
+
+button:hover{
+    transform: scale(1.06);
+    color: #298bcd;
+    opacity: 90%;
+}
+
+
+.h1{
+    font-size: 50px;
+    color:#ffffff;
+    align-self: flex-start;
+    position: absolute;
+    margin-left: 8rem;
+}
+
+
+.container8{
+    align-self: flex-start;
+    width: 40vh;
+    height: 35vh;
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: -0.3rem;
+}
+
+.card8{
+    width: 40vh;
+    height: 35vh;
+    background: #0f1920;
+    border-radius: 15px 0 15px 0;
+    transition: 0.5s ease 0s;
+}
+
+.card8:hover{
+    transform: scale(1.04);
+}
+
+.card-item8 img{
+    width: 180px;
+    height: 25vh;
+    margin-left: 6.5rem;
+    margin-top: 2.5rem;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(-60px);
+    animation: movedown 0.5s linear forwards;
+}
+
+@keyframes movedown{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.anim2{
+    opacity: 0;
+    transform: translateX(-60px);
+    animation: moveside 0.5s linear forwards;
+}
+
+@keyframes moveside{
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.anim3{
+    opacity: 0;
+    transform: translateX(60px);
+    animation: moveside 0.5s linear forwards;
+}
+
+@keyframes moveside{
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.anim4{
+    opacity: 0;
+    transform: translateY(60px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.anim5{
+    opacity: 0;
+    transform: scale(0);
+    animation: zoomin 0.8s linear forwards;
+}
+
+@keyframes zoomin{
+    100%{    
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.container-foot{
+    width: 100%;
+    height: 30vh;
+    margin-top: 3.8rem;
+}
+
+
+.container-c{
+    width: 100%;
+    height: 30vh;
+}
+
+
+.card-c{
+    border: 1px solid azure;
+    width: 100%;
+    height: 30vh;
+    background: azure;
+}
+
+
+.card-item-c #logo{
+    width: 90px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.card-item-c #copy{
+    color: #0a161e;
+    font-size: 15px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
